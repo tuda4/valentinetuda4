@@ -11,7 +11,7 @@ export default function Accept() {
     setIsModalOpen(false);
   }
   return (
-    <div>
+    <div className="fixed w-full">
       <div className="grid gap-[10px] m-auto place-items-center w-[100vw]">
         <img alt="bugcat yayyy" className="h-[400px]" src="/bugcat-yay.gif" />
         Yayyy~
