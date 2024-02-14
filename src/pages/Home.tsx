@@ -17,14 +17,14 @@ export default function Home() {
 
   return (
     <>
-      <div className={`grid gap-[10px] m-auto place-items-center w-[90vw]`}>
+      <div className={`grid gap-[20px] m-auto place-items-center w-[90vw]`}>
         <img
           alt={please ? "capoo excited" : "capoo flowers"}
           className="h-[300px]"
           src={please ? "/capoo-excited.gif" : "/capoo-flowers.gif"}
         />
-        Hi Cun, will u go out with me?
-        <div className="flex gap-10 w-[70%]">
+        <h2 className="text-center">Hi Cun, will u go out with me?</h2>
+        <div className="flex gap-10 w-[70%] justify-between">
           <Link hrefLang="/accept" to={"/accept"}>
             <button
               className="mr-auto bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded-full"
