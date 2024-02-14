@@ -26,7 +26,7 @@ const Modal = ({ onClose }: Props) => {
     <div className="fixed inset-0 flex items-center justify-center bg-gray-500 bg-opacity-50 w-full h-full place-items-center">
       <div className="bg-white p-4 rounded shadow w-[100vw] h-[80vh] overflow-y-auto flex gap-10 flex-col justify-evenly">
         <h2 className="text-[24px] text-center font-bold mb-4">
-          What do u want date with me ?
+          Where do u want date with me ?
         </h2>
         <div>
         {options.map((option) => (
